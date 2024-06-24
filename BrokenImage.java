@@ -13,7 +13,7 @@ public class BrokenImage {
 	       
 	       //System.setProperty("webdriver.chrome.driver", "/Users/zenarate/Downloads/chromedriver");
             
-		   //WebDriverManager.chromedriver().setup();
+		    WebDriverManager.chromedriver().setup();
 		    WebDriver driver = new ChromeDriver();
 
 	        String brokenImageURL = "https://practice.expandtesting.com/broken-images";
