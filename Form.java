@@ -11,7 +11,7 @@ public class Form {
     	
       //System.setProperty("webdriver.chrome.driver", ".chromedriver");
         
-      //WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         
         String url = "https://automationintesting.com/selenium/testpage/";
